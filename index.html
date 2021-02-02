@@ -40,7 +40,7 @@
 							<ul>
 							   
 							     <li><a href="/云盾/2" target="_blank"><i class="fa fa-heart-o"></i>103.95.221.2</a></li>
-							      <li><a href="/云盾/33" target="_blank"><i class="fa fa-heart-o"></i>117.27.239.33</a></li>
+							      <li><a href="/云盾/0" target="_blank"><i class="fa fa-heart-o"></i>117.27.239.0</a></li>
 							       <li><a href="/云盾/45" target="_blank"><i class="fa fa-heart-o"></i>117.27.239.45</a></li>
 							        <li><a href="/云盾/200" target="_blank"><i class="fa fa-heart-o"></i>117.27.239.200</a></li>
 							         <li><a href="/云盾/201" target="_blank"><i class="fa fa-heart-o"></i>117.27.239.201</a></li>
@@ -56,8 +56,39 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<div class="mom1" >你的IP:<script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
-                   <script type="text/javascript">
+	<script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
+ 
+<script>
+ 
+swal('目前可用IP只有117.27.239.0','\n\n其他IP暂不可用，请使用117.27.239.0进行测试，望悉知！！','success'); function AddFavorite(title, url) {
+ 
+  try {
+ 
+      window.external.addFavorite(url, title);
+ 
+  }
+ 
+catch (e) {
+ 
+     try {
+ 
+       window.sidebar.addPanel(title, url,);
+ 
+    }
+ 
+     catch (e) {
+ 
+         alert("抱歉，您所使用的浏览器无法完成此操作。");
+ 
+     }
+ 
+  }
+ 
+}
+ 
+</script>					<div class="mom1" >你的IP:<script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
+                 
+  <script type="text/javascript">
                     document.write(returnCitySN["cip"])
                    </script>></div>
 					<li><a href="index.html">卢瓦</a>.copyright © 2020 All Rights Reserved.</li>
